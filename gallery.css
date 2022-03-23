@@ -1,0 +1,35 @@
+body{
+    background: #E5E7E9;
+}
+.fig{
+    height: auto;
+}
+.grow1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.grow2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.grow3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.grow4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.grow5{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.grow6{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.grow7{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+

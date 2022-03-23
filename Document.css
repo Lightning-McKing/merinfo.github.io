@@ -1,0 +1,63 @@
+body{
+    background: #E5E7E9;
+}
+.tsd1{
+    background: #EBEDEF;
+}
+.tsd{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+}
+.model{
+    padding: 1rem;
+}
+.tsdov{
+    font-size: 20px;
+}
+.tsdd{
+    font-size: 20px;
+}
+.cb{
+    display: block;
+    margin: auto;
+}
+.db{
+    display: block;
+    margin: auto;
+}
+.last{
+    background: #EBEDEF;
+}
+.card-header{
+    background: black;
+    color: floralwhite;
+}
+.card-body{
+    background:#E5E7E9; 
+}
+.card-title{
+    font-size: 20px;
+}
+.cmd{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+}
+.mbppov{
+    font-size: 20px;
+}
+.mbppd{
+    font-size: 20px;
+}
+.lrdet{
+    font-size: 20px;
+}
+.lrdia{
+    padding-bottom: 14px;
+}
+.algo{
+    padding-bottom: 10px;
+}

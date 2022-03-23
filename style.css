@@ -1,0 +1,145 @@
+.jumbotron{
+    text-align: center;
+    font-family: Verdana,sans-serif;
+}
+.c2{
+    padding: 2rem;
+    background: #E5E7E9;
+}
+button.button1{
+    display: block;
+    margin: auto;
+}
+.modal-header{
+    margin: auto;
+}
+.logo1{
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.b1{
+    padding-top: 1rem;
+}
+
+.limage{
+    height: 150px;
+    width: 150px;
+    padding: 1rem; 
+}
+.about{
+    font-size: 30px;
+    padding: 2rem;
+    color: aliceblue;
+}
+a:hover{
+    color: darkgray;
+}
+.card{
+    background: #E5E7E9;
+}
+.card-header{
+    background: black;
+    color: aliceblue;
+}
+.c3{
+    padding: 2rem;
+    padding-top: 15px;
+}
+.r1{
+    background: #E5E7E9;
+}
+.r2{
+    padding-top: 0px;
+}
+.c4{
+    padding: 2rem;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.backside{
+    padding-top: 15px;
+    padding-bottom: 20px;  
+}
+.c5{
+    padding: 2rem;
+    background: #E5E7E9;
+    padding-top: 15px;
+}
+.hw223{
+    background-color: #17202A;
+    padding: 0px;
+    color: azure;
+    text-align: center;
+}
+.c52{
+    padding: 1rem;
+}
+.r3{
+    background: #E5E7E9;
+}
+.r31{
+    display: block;
+    margin: auto;
+    
+}
+.vidsclass{
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+h1.hw223{
+    margin: 0;
+    background: #010101;
+}
+.sclass{
+    background: #010101;
+}
+.w3-sans-serif{
+    font-size: 15px;
+}
+.c41{
+    display: flex;
+    align-items: flex-end;  
+}
+.v3{
+    display: block;
+    margin: auto;
+}
+.vp1{
+    padding: 1rem;
+}
+.vp2{
+    padding: 1rem;
+}
+.vp3{
+    padding: 1rem;
+}
+.videos{
+    background: #E5E7E9;
+}
+.display-4{
+   color: black;
+   text-shadow: 4px 4px 8px #000000;
+}
+.hw223{
+   color: #E5E7E9;
+   text-shadow: 2px 2px 4px #E5E7E9;
+}
+.d{
+    background-color: black;
+}
+.tq{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+

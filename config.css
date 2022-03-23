@@ -1,0 +1,309 @@
+.r1c1{
+    text-align: center;
+}
+.r1c2{
+    text-align: center;
+}
+.r2c1{
+    text-align: center;
+}
+.r2c2{
+    text-align: center;
+}
+.r1categories{
+    background: #010101;
+    color: #ECF0F1;
+}
+.sclasspic{
+    padding: 1rem;
+}
+.sclass{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.sclassbutton{
+    padding: 1rem;
+}
+.aclass{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.aclassbutton{
+    padding: 1rem;
+}
+.sclassconfig{
+    padding: 1rem;
+    background: white;
+    color: black;
+}
+.stype{
+    font-size: 20px;
+}
+.ssc{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.shp{
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+.swb{
+    font-size: 15px;
+}
+.scv{
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+.se{
+    font-size: 15px;
+}
+.st{
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+table{
+    width: 100%;  
+}
+table,th,td{
+    border: 3px solid #17202A;
+}
+.aclassbutton{
+    padding: 1rem;
+}
+.atype{
+    font-size: 20px;
+}
+.aclassconfig{
+    color: black;
+    padding: 1rem;
+    background: white;
+}
+.asc{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.ahp{
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+.awb{
+    font-size: 15px;
+}
+.acv{
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+.ae{
+    font-size: 15px;
+}
+.at{
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+.cclassbutton{
+    padding: 1rem;
+    color: black;
+}
+.r2c1{
+    text-align: center;
+}
+.cclass{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.r2categories{
+    background: #010101;
+    color: #ECF0F1;
+}
+.cclassconfig{
+    color: black;
+    padding: 1rem;
+    background: white;
+}
+.ctype{
+    font-size: 20px;  
+}
+.cclassimg{
+    padding: 1rem;
+}
+.csc{
+    font-size: 15px;
+}
+.chp{
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+.ccv{
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+.ce{
+    font-size: 15px;
+}
+.ct{
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+.eclassconfig{
+    color: black;
+    padding: 1rem;
+    background: white;
+}
+.eclassbutton{
+    padding: 1rem;
+    color: black;
+    text-align: center;
+}
+.eclass{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.ctype{
+    font-size: 20px;
+    text-align: center;
+}
+.etype{
+    font-size: 20px;
+}
+.eclassimg{
+    padding: 1rem;
+}
+.esc{
+    font-size: 15px;
+}
+.ehp{
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+.ewb{
+    font-size: 15px;
+}
+.ecv{
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+.ee{
+    font-size: 15px;
+}
+.et{
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+.r3categories{
+    background: #010101;
+    color: #ECF0F1;
+}
+.amggtbutton{
+    padding: 1rem;
+    color: black;
+    text-align: center;
+}
+.amggt{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.amggtconfig{
+    color: black;
+    padding: 1rem;
+    background: white;
+    text-align: center;
+}
+.amggttype{
+    font-size:20px;
+}
+.amggtimg{
+    padding: 1rem;
+}
+.amgsc{
+    font-size: 15px;
+}
+.amghp{
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+.amgwb{
+    font-size: 15px;
+}
+.amge{
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+.amgfc{
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+.maybachbutton{
+    padding: 1rem;
+    color: black;
+    text-align: center;    
+}
+.maybach{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.maybachconfig{
+    color: black;
+    padding: 1rem;
+    background: white;
+    text-align: center;
+}
+.maytype{
+    font-size: 20px;
+}
+.maybachimg{
+    padding: 1rem;
+}
+.msc{
+    font-size: 15px;
+}
+.mhp{
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+.me{
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+.mft{
+    font-size: 15px;
+}
+.mp{
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+.mcw{
+    font-size: 15px;
+}
+.mt{
+    font-size: 15px;
+    background: white;
+}
+.mfe{
+    font-size: 15px;
+}
+.mm{
+    font-size: 15px;
+    background: white;
+}
+.ma{
+    font-size: 15px;
+    padding-bottom: 0px;
+}

@@ -1,0 +1,114 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">    
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="Document.css">
+</head>
+<body>
+   <div class="nav1">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <a class="navbar-brand" href="index.html">Home</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="Document.html">Document</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="config.html">Configurations</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="gallery.html">Gallery</a>
+                  </li>        
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Showroom
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="chennai.html">Chennai</a>
+                      <a class="dropdown-item" href="bangalore.html">Bangalore</a>
+                      <a class="dropdown-item" href="mumbai.html">Mumbai</a>
+                      <a class="dropdown-item" href="hyderabad.html">Hyderabad</a>     
+                      <hr class="dropdown-divider">
+                      <a class="dropdown-item" href="delhi.html">Delhi</a>  
+                      </div>
+                  </li>
+                </ul>
+              </div>
+          </nav>
+   </div> 
+   <div class="doctsd">
+       <div class="row tsd1">
+           <div class="col-sm-6">
+               <div class="tsd"><p>Traffic Sign Neural Network</p></div>
+           </div>
+           <div class="col-sm-6">
+               <div class="cmd"><p>Price Classifier</p></div>
+           </div>
+       </div>
+   </div>
+   <div class="row model">
+       <div class="col-sm-6">
+           <div class="tsdparahead"><h3>Overview:</h3></div>
+           <div class="tsdov"><p>This is an Deep learning model where it can predict traffic signs,basically there is a usage of convolutional neural networks,max pooling layers to reduce the size of the edge and flatten layer to convert the multi-dimensional data inputs to single dimension.</p></div>
+           <div class="cnnimage"><img class="img-fluid" src="assests/cnn_banner.jpg"></div>
+           <div class="detailhead"><h3>Detail:</h3></div>
+           <h5>Data Cleaning and extraction:</h5>
+           <div class="tsdd"><p>An empty list named images,labels are created to fetch up the features and labels respectively,now the data is collected and scanned by using for loop and assigned to images and labels.The collected data is converted to array for further proceedings.</p>
+           <p>Images and labels are assingned to features and target and here comes the data seperation(training and testing) using a function in sklearn called train_test_spilt,after seperation the feature data is fed into preprocessing step where convertion of images to black and white and normalisation takes place.</p>
+           <p>There are some alteration need to be done for better understanding and classified data such as width,height shift,shear,zoom and rotation.There is a function called ImageDataGenerator in keras module.After alteration the data is scanned for error,if there is no error the changes are applied using flow method.Lastly perform one-hot encoding using a function to_categorical in keras module.</p>
+           <h5>Model Specification:</h5>   
+           <p>As it is there in overview there are several layers used in model specification such as Conv2d,MaxPooling,Flatten,Dense and model of type of sequential.</p>
+           <h5>Model Compilation:</h5>       
+           <p>Model compilation is done by two parameters,one is optimizer and loss function of adam with learning rate 0.001 and categorical_crossentropy.</p> 
+           <h5>Model Fitting:</h5>       
+           <p>Fitting is done by calling the method fit_generator with parameters,one is the variable where the data is assigned and the other one is epochs specification.</p>          
+           <p>Before predicting,the model architecture and weights must be saved so that we can run it whenever we want and it must be in the form of jason</p>
+           <h5>Model Prediction:</h5>       
+           <p>First thing needed to be done is input capturing through our web cam or default camera,the input is video nothing but continuos frame of images,we have to passs that image to make prediction.As we get multiple continuos images we use infinite while loop to make further process.The predicion process is shown in the code file.</p>
+           </div>
+           <div class="last">
+            <div class="card text-center">
+             <div class="card-header">Technical Support</div>
+              <div class="card-body">
+                  <p class="card-title">To access the code and the dataset,click below</p>
+                <p class="card-text"></p>
+                <a href="assests/Traffic%20Sign%20Detector.ipynb" class="btn btn-dark" download>Code</a>
+                <a href="assests/traffic%20sign.zip" class="btn btn-dark" download>Dataset</a>  
+              </div>
+            </div>
+           </div>
+       </div>
+       <div class="col-sm-6">
+           <div class="mbpphead"><h3>Overview:</h3></div>
+           <div class="mbppov"><p>This is an classification model where we play with structured data this time.we use sigmoid function to seperate the classes and at first it applies logistic regression and then comes sigmoid function,the intersection of slope and sigmoid function called as pivot and then it classifies the two classes.</p></div>
+           <div class="lrimage"><img class="img-fluid" src="assests/lrimage.jpg"></div>
+           <div class="detailhead"><h3>Detail:</h3></div>
+           <h5>Data Cleaning and extraction:</h5>
+           <div class="mbppd"><p>Read the file using pandas and seperate the feature column and target column assigning each variable to it,and get the dummy values(convert categorical to numerical values) and using keras classify test and training data and and using logistic regression we feed the data for further prediction process.</p>
+           <p>There are some categorical data in the dataframe where we have to convert into numerical so that we can apply logistic regression into it.To convert to numerical values we can call get_dummies function and to_categorical method from utilis in keras library.</p>
+           <h5>Model Specification and working:</h5> 
+           <p>As it is structured data we dont use any specialized neural network into it,so there is a use of regular model method and the training sets is fit into the model and it is further proceed for predicting using testing test. </p>       
+           <h5 class="algo">Algorithm:</h5>       
+           <div class="lrdia"><img class="img-fluid" src="assests/lrdia2.jpg"></div>
+           <div class="lrdet"><p>At first it performs linear regression where it performs a slope a degree(theta) and then there is a sigmoid graph which is yellow in color,the point where the sigmoid line and linear line intercepts is called as pivot,and the points or the entities which is present left to it as classified as a class and points or entities right to it is classified as another class.The main reason why we use sigmoid function is it between 0 and 1,the classification outcomes a value which is between 0 and 1.This is how regression works. </p></div>       
+           </div>
+           <div class="last">
+            <div class="card text-center">
+             <div class="card-header">Technical Support</div>
+              <div class="card-body">
+                  <p class="card-title">To access the code and the dataset,click below</p>
+                <p class="card-text"></p>
+                <a href="assests/Mercedes%20Price.ipynb" class="btn btn-dark" download>Code</a>
+                <a href="assests/merc.csv" class="btn btn-dark" download>Dataset</a>  
+              </div>
+            </div>
+           </div>  
+       </div>
+   </div>    
+   
+</body>
