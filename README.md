@@ -4,6 +4,7 @@ Index file:
 
 It contains a navbar which has 5 navbar items:  
                                               1.Navbar-brand with Home button:
+                                              
                                               * The index file is created here where it has a JUMBOTRON and a para tag which defines the company 
                                                 followed by a carosuel with 5 images and a para tag with introduction to AI in and below to that 
                                                 there is a register button containing 3 fields of email,phone and a comment fields where user can 
