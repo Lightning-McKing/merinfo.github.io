@@ -1,4 +1,4 @@
-An automobile info website which also contains neural networks projects and price classifier related to cars where you users can download code and datasets from the document section.Basically a student who is enthusiastic in application of AI in automobile industry specially DAIMLER-Mercedes,so this website is a reference for config of finite number of classes in mercedes benz and the special technologies applied in the car.
+An automobile info website which also contains neural networks projects and price classifier related to cars where you users can download code and datasets from the document section.Basically a student who is enthusiastic in application of AI in automobile industry specially DAIMLER-Mercedes,so this website is a reference for config of finite number of classes in mercedes benz and the unique technologies applied in the car.
 
 It contains a navbar which has 5 navbar items:  
                                               1.Index:
